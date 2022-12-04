@@ -53,14 +53,14 @@ public class JadenCase {
 * **Brest State Technical University, Brest**
     * Faculty of Mechanical Engineering, Vehicle Maintenance
 * **Courses**
-    1. Java:
-        * [Java Basics 01.2022](https://learn.epam.com)
-        * [Java. Fundamentals](https://learn.epam.com)
-        * [Java.Classes](https://learn.epam.com)
-        * [Java.Strings](https://learn.epam.com)
-    2. [Computer Science Basics](https://learn.epam.com)
-    3. [Version Control with Git](https://learn.epam.com)
-    4. [Puzzle-English/Метод Тичера](https://puzzle-english.com/teacher)
+1. Java:
+    * [Java Basics 01.2022](https://learn.epam.com)
+    * [Java. Fundamentals](https://learn.epam.com)
+    * [Java.Classes](https://learn.epam.com)
+    * [Java.Strings](https://learn.epam.com)
+2. [Computer Science Basics](https://learn.epam.com)
+3. [Version Control with Git](https://learn.epam.com)
+4. [Puzzle-English/Метод Тичера](https://puzzle-english.com/teacher)
 
 ### Projects
 ------------
@@ -71,7 +71,7 @@ public class JadenCase {
 * **English** - Upper-Intermediate
     * EPAM Adaptive English test: B2
     * Puzzle English test: Upper-Intermediate (B2)
-    * EF SET English Certificate 65/100 (C1 Advanced)
+    * EF SET English Certificate 65/100 (C1 Advanced)  
     ![EnglishTest](EFS-QuickCheck.png "EFS-QuickCheck")
 * **Russian** - Native
 * **Belorussian** - Advanced  
