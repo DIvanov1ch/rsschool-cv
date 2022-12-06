@@ -1,0 +1,24 @@
+#content {
+    width: 520px;
+    float: right;
+}
+
+#mainNav {
+    width: 180px;
+    float: left;
+}
+
+#footer {
+    clear: both;
+}
+#mainNav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#mainNav li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#content h1, h2, p {
+    padding-right: 20px;
+}
