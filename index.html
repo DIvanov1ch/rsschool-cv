@@ -2,17 +2,196 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-
-    <title>HTML, CSS &amp; Git Basics</title>
-    <meta name="description" content="Denis Trukhanovich's CV">
-    <meta name="author" content="SitePoint">
-
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denis Trukhanovich CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <script src="js/scripts.js"></script>
+    <header class="header">
+        <div class="container header-container" onclick="myFunction(this)">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me">Summary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#code-example">Code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#languages">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="toggle">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main main-container">
+        <div class="container main-left">
+            <section class="section section-profile" id="profile">
+                <img class="main-foto" src="assets/img/MyImage.jpg" alt="My Foto">
+                <div class="section-profile-title">
+                    <h1 class="main-section-title" id="name">Denis Trukhanovich</h1>
+                    <h2 class="section-title" id="profession"><em>Junior Front-end Developer</em></h2>
+                </div>
+            </section>
+
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="contacts-list">
+                    <li class="contacts-item"><b>Phone:</b> +375 (33) 622-46-85</li>
+                    <li class="contacts-item"><b>Email:</b> <a class="contacts-link"
+                            href="mailto:denis.trukhanovich@gmail.com" rel="me"
+                            target="_blank">denis.trukhanovich@gmail.com</a></li>
+                    <li class="contacts-item"><b>GitHub:</b> <a class="contacts-link"
+                            href="https://github.com/DIvanov1ch" target="_blank">https://github.com/DIvanov1ch</a></li>
+                    <li class="contacts-item"><b>GitLub:</b> <a class="contacts-link"
+                            href="https://gitlab.com/DIvanov1ch" target="_blank">https://gitlab.com/DIvanov1ch</a></li>
+                    <li class="contacts-item"><b>Discord:</b> DIvanov1ch#4213</li>
+                </ul>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">Java</li>
+                    <li class="skills-item">JavaScript</li>
+                    <li class="skills-item">HTML</li>
+                    <li class="skills-item">CSS</li>
+                    <li class="skills-item">Git / GitHub / GitLub</li>
+                    <li class="skills-item">IntelliJ IDEA / VS Code</li>
+                </ul>
+            </section>
+
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="courses-list">
+                    <li class="courses-item">
+                        <a class="courses-link" href="https://learn.epam.com" rel="external" target="_blank">Java Basics
+                            01.2022</a>
+                    </li>
+                    <li class="courses-item">
+                        <a class="courses-link" href="https://learn.epam.com" rel="external" target="_blank">Java.
+                            Fundamentals</a>
+                    </li>
+                    <li class="courses-item">
+                        <a class="courses-link" href="https://learn.epam.com" rel="external"
+                            target="_blank">Java.Classes</a>
+                    </li>
+                    <li class="courses-item">
+                        <a class="courses-link" href="https://learn.epam.com" rel="external"
+                            target="_blank">Java.Strings</a>
+                    </li>
+                    <li class="courses-item">
+                        <a class="courses-link" href="https://learn.epam.com" rel="external" target="_blank">Computer
+                            Science
+                            Basics</a>
+                    </li>
+                    <li class="courses-item">
+                        <a class="courses-link" href="https://learn.epam.com" rel="external" target="_blank">Version
+                            Control
+                            with
+                            Git</a>
+                    </li>
+                    <li class="courses-item">
+                        <a class="courses-link" href="https://puzzle-english.com/teacher" rel="external"
+                            target="_blank">Puzzle-English/Teacher</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="container main-right">
+            <section class="section" id="about-me">
+                <h2 class="section-title">About me</h2>
+                <p>A detail-oriented Junior, who is eager to absorb information and advice from mentors as a sponge.
+                    Looking forward to joining a fast-paced company and use my creativity and experience to improve
+                    the
+                    overall quality of a product or service.</p>
+            </section>
+
+            <section class="section" id="code-example">
+                <h2 class="section-title">Code example</h2>
+                <pre class="main-code"><code id="code">String.prototype.toJadenCase = <span class="code-blue">function</span> <span class="code-yellow">()</span> <span class="code-yellow">{</span>
+  <span class="code-blue">return</span> <span class="code-blue">this</span>.split<span class="code-pink">(</span><span class="code-red">"</span> <span class="code-red">"</span><span class="code-pink">)</span>.
+    map<span class="code-pink">(</span><span class="code-blue">(</span>word<span class="code-blue">)</span> <span class="code-blue">=></span> word<span class="code-blue">[</span>0<span class="code-blue">]</span>.toUpperCase<span class="code-blue">()</span>
+    + word.slice<span class="code-blue">(</span>1<span class="code-blue">)</span><span class="code-pink">)</span>.join<span class="code-pink">(</span><span class="code-red">"</span> <span class="code-red">"</span><span class="code-pink">)</span>;
+<span class="code-yellow">}</span>;</code></pre>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>
+                    <b>Brest State Technical University, Brest</b>
+                </p>
+                <p>Faculty of Mechanical Engineering, Vehicle Maintenance</p>
+            </section>
+
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <a class="projects-link"
+                    href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv.md" rel="preconnect"
+                    target="_blank">Rolling Scopes School - project 'CV'</a>
+            </section>
+
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="languages-list">
+                    <li class="languages-item">EPAM Adaptive English test: B2</li>
+                    <li class="languages-item">Puzzle English test: Upper-Intermediate (B2)</li>
+                    <li class="languages-item">EF SET English Certificate 65/100 (C1 Advanced)</li>
+                </ul>
+                <img class="language-image" src="assets/img/EFS-QuickCheck.png" alt="EF SET English">
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container container">
+            <a class="rss-footer-link" href="https://rs.school/js/" rel="preconnect" target="_blank">
+                <img src="assets/svg/rs_school_js.svg" alt="RSSchool">
+            </a>
+            <p class="year">&copy;2022</p>
+            <a class="git-footer-link" href="https://github.com/DIvanov1ch" rel="external" target="_blank">
+                <img class="git-image" src="assets/svg/iconmonstr-github-1.svg" alt="MyGitHub">
+                <p>DIvanov1ch</p>
+            </a>
+        </div>
+
+    </footer>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
 </body>
 
 </html>
