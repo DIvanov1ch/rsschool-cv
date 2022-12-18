@@ -72,6 +72,6 @@ public class JadenCase {
     * EPAM Adaptive English test: B2
     * Puzzle English test: Upper-Intermediate (B2)
     * EF SET English Certificate 65/100 (C1 Advanced)  
-    ![EnglishTest](EFS-QuickCheck.png "EFS-QuickCheck")
+    ![EnglishTest](assets/img/EFS-QuickCheck.png "EFS-QuickCheck")
 * **Russian** - Native
 * **Belorussian** - Advanced  
